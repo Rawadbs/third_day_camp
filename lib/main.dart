@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:third_day_camp/screens/home.dart';
-import 'package:third_day_camp/screens/subha.dart';
+import 'package:third_day_camp/widgets/splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const HomePageScreen(),
+      home: const Splashscreen(),
     );
   }
 }
